@@ -21,10 +21,6 @@ def reset_timer():
     checkmark.config(text="")
     reps = 0
 
-
-
-
-
 # ---------------------------- TIMER MECHANISM ------------------------------- #
 def start_timer():
     global reps
@@ -41,8 +37,6 @@ def start_timer():
     else:
         count_down(short_break_sec)
         label.config(text="Short Break", fg=PINK)
-
-
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 def count_down(count):
